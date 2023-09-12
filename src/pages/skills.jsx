@@ -49,6 +49,7 @@ export default function Skills(props){
             image: image,
             desc: desc,
         })
+        props.scrollTo(props.referMe)
     }
 
     useLayoutEffect(() => {
@@ -86,7 +87,7 @@ export default function Skills(props){
                     <h1 className="text-5xl text-white font-lexend-mega font-bold items-center md:mr-8">Skills</h1>
                     <div className="topbar [&>*]:w-16 [&>*]:fill-white ">{top.image}</div>
                 </div>
-                    <p className="toptext text-white text-[22px] items-center  w-[500px] xl:w-[800px] ">{top.desc}</p>
+                    <p className="toptext text-white text-[22px] items-center w-3/4 xl:w-[800px] max-md:mx-auto">{top.desc}</p>
             </div>
             <div className="max-lg:mb-20 mx-auto grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3">
                 {skillIcons}

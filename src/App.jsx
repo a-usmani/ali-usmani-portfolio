@@ -30,7 +30,7 @@ export default function App() {
                 <About scrollTo={scrollTo} refer={section3}/>
             </div>
             <div ref={section3}>
-                <Skills scrollTo={scrollTo} refer={section4}/>
+                <Skills scrollTo={scrollTo} refer={section4} referMe={section3}/>
             </div>
             <div ref={section4}>
                 <Projects scrollTo={scrollTo} refer={section5}/>
