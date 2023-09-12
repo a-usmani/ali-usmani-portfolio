@@ -81,7 +81,7 @@ export default function Skills(props){
         ))
 
     return(
-        <div className="relative flex flex-col justify-center h-full md:h-screen bg-blue-600 " id="skills">
+        <div className="relative flex flex-col justify-center lg:h-screen bg-blue-600 " id="skills">
             <div className="max-lg:mt-20 flex flex-col justify-between   items-center  mx-auto  mb-20">
                 <div className="flex flex-col md:flex-row  items-center lg:mr-8 mb-8">
                     <h1 className="text-5xl text-white font-lexend-mega font-bold items-center md:mr-8">Skills</h1>
