@@ -12,7 +12,7 @@ export default function Intro(){
                     </div>
                 </div>
                 <div>
-                    <p className=" items-center text-2xl">Frontend Developer.</p>
+                    <p className=" items-center text-2xl">Developer & Designer.</p>
                 </div>
             </div>
         </div>
