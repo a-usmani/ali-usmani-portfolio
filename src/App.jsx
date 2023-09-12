@@ -21,7 +21,7 @@ export default function App() {
 
 
     return(
-        <div  className='font-work-sans lg:scrollbar scroll-smooth'>
+        <div  className='font-work-sans scroll-smooth overflow-hidden'>
             <Header scrollTo={scrollTo} refer={section1}/>
             <div ref={section1}>
                 <Home scrollTo={scrollTo} refer={section2}/>
