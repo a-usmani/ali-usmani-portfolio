@@ -1,4 +1,3 @@
-import BackgroundSquaresHome from "./background-square-home";
 
 export default function Intro(){
     return(

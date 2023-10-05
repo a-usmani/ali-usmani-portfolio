@@ -12,7 +12,7 @@ export default function App() {
     const section3 = useRef()
     const section4 = useRef()
     const section5 = useRef()
-
+    const sections = [section1, section2, section3, section4, section5];
 
     function scrollTo(section) {
         section.current.scrollIntoView({behavior:
@@ -22,9 +22,9 @@ export default function App() {
 
     return(
         <div  className='font-work-sans scroll-smooth overflow-hidden'>
-            <Header scrollTo={scrollTo} refer={section1}/>
+            <Header scrollTo={scrollTo} refer={section1} />
             <div ref={section1}>
-                <Home scrollTo={scrollTo} refer={section2}/>
+                <Home scrollTo={scrollTo} refer={section2} sections={sections}/>
             </div>
             <div ref={section2}>
                 <About scrollTo={scrollTo} refer={section3}/>
