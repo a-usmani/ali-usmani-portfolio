@@ -14,10 +14,15 @@ export default function About(props){
                         <Socials/>
                     </div>
                     <div className=" lg:col-span-1 relative">
-                        <div className="relative flex flex-col h-full items-center justify-center w-[400px] mx-auto md:mr-auto">
-                            <img src="DSC_0145.jpg">
-                            </img>
-                            <img src="bird2.png" className="absolute -top-[68px] lg:top-[118px] left-52  w-60 z-50" />
+                        <div className="flex flex-col h-full items-center justify-center w-[400px] mx-auto md:mr-auto">
+                            <div className="relative">
+                                <img src="DSC_0145.jpg">
+                                </img>
+                                <div>
+                                <img src="bird2.png" className="absolute -top-[68px] left-52  w-60 z-50" />
+
+                                </div>
+                            </div>                           
                             <Resume/>
                         </div>
                     </div>
