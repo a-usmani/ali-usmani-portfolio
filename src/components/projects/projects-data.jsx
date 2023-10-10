@@ -33,7 +33,7 @@ export default {
                 "tag":"OOP",
                 "slides": ["BookStore0.png","BookStore1.png","BookStore2.png","BookStore3.png","BookStore4.png"],
                 "github": "https://github.com/a-usmani/Library-Managment-System",
-                "desc": "Library management system built using OOP principles in Java that enabled users to create accounts and purchase books as well as administrative functionality to manage books and users.",
+                "desc": "Library management system built using OOP principles in Java that enables users to create accounts and purchase books as well as administrative functionality to manage books and users.",
             },
             {
                 "id": "5",
