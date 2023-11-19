@@ -82,17 +82,17 @@ export default function Skills(props){
 
     return(
         <div className="relative flex flex-col justify-center lg:min-h-[800px] lg:h-screen bg-blue-600 " id="skills" >
-            <div className="max-lg:mt-20 flex flex-col justify-between   items-center  mx-auto  mb-12">
-                <div className="flex flex-col md:flex-row  items-center lg:mr-8 mb-8">
-                    <h1 className="text-5xl text-white font-lexend-mega font-bold items-center md:mr-8">Skills</h1>
-                    <div className="topbar [&>*]:w-16 [&>*]:fill-white ">{top.image}</div>
+                <div className="max-lg:mt-20 flex flex-col justify-between   items-center  mx-auto  mb-12">
+                    <div className="flex flex-col md:flex-row  items-center lg:mr-8 mb-8">
+                        <h1 className="text-5xl text-white font-lexend-mega font-bold items-center md:mr-8">Skills</h1>
+                        <div className="topbar [&>*]:w-16 [&>*]:fill-white ">{top.image}</div>
+                    </div>
+                        <p className="toptext text-white text-[22px] items-center w-3/4 xl:w-[800px] max-md:mx-auto">{top.desc}</p>
                 </div>
-                    <p className="toptext text-white text-[22px] items-center w-3/4 xl:w-[800px] max-md:mx-auto">{top.desc}</p>
-            </div>
-            <div className="max-lg:mb-20 mx-auto grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3">
-                {skillIcons}
-            </div>
-            <div className="text-2xl text-orange-400  font-bold absolute bottom-10 left-0 right-0 flex items-center justify-center max-lg:hidden">
+                <div className="max-lg:mb-20 mx-auto grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3">
+                    {skillIcons}
+                </div>
+            <div className="text-2xl text-orange-400 font-bold flex items-center justify-center max-lg:hidden mt-8 ">
                 <button onClick={() => props.scrollTo(props.refer)} className="[&>*]:fill-orange-400" >
                     PROJECTS <Bouncing/>
                 </button>

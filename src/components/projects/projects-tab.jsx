@@ -4,7 +4,7 @@ export default function ProjectsTab(props){
 
     const projects = projectData.data.projects
     return(
-        <div className="heloo col-span-1  lg:h-[90vh] w-screen lg:ml-16" >
+        <div className="heloo col-span-1   w-screen lg:ml-16" >
             
             <div className="flex flex-col   justify-between  text-slate-500 w-5/6 max-lg:mx-auto">
                 <div className="flex flex-row ">
