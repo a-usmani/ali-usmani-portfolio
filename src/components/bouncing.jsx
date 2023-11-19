@@ -1,15 +1,16 @@
-import { useEffect } from 'react'
+import { useLayoutEffect } from 'react'
 import {gsap} from 'gsap'
 
 export default function Bouncing(){
-    useEffect(() => {
-            gsap.to(".anim", {
+    useLayoutEffect(() => {
+        let to =gsap.to(".anim", {
                 lazy: false,
                 duration: 0.6, 
                 y:'30',
                 repeat:-1, 
                 yoyo:true
             })
+            return () => to.kill()
     }, [])
 
     return(

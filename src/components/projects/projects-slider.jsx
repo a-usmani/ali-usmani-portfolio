@@ -1,6 +1,6 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, A11y, Autoplay  } from 'swiper/modules';
-import { useEffect } from 'react';
+import { useLayoutEffect } from 'react';
 import gsap from 'gsap';
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -8,8 +8,8 @@ import 'swiper/css/pagination';
 import 'swiper/css/autoplay'
 
 export default function ProjectsSlider(props){
-    useEffect(() => {
-        gsap.fromTo('.waddup', {
+    useLayoutEffect(() => {
+        let fromTo = gsap.fromTo('.waddup', {
             duration: 2,
             opacity: 0,
             ease: "power4",
@@ -18,6 +18,7 @@ export default function ProjectsSlider(props){
             opacity: 1,
             ease: "power4",
         })
+        return () => fromTo.kill()
     }, [props.project])
 
     const project = props.project

@@ -8,7 +8,7 @@ export default function Projects(props){
     const [activeProject, setActiveProject] = useState(projectData.data.projects[0])
 
     return(
-        <div className=" lg:h-screen w-full flex relative max-lg:my-16">
+        <div className=" lg:min-h-[800px] lg:h-screen w-full flex relative max-lg:my-16" >
             <div className="max-lg:flex-col lg:absolute bottom-0 lg:grid grid-cols-2 gap-4">
                 <div className="flex items-center w-full mx-auto">
                     <ProjectsTab setActiveProject={setActiveProject}/>

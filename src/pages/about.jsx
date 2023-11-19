@@ -5,8 +5,8 @@ import Bouncing from "../components/bouncing";
 
 export default function About(props){
     return (
-        <div className="relative max-lg:my-20 lg:mx-16">
-            <div className="flex lg:h-screen   mx-auto " id="about">
+        <div className="relative min-h-[600px]  max-lg:my-20 lg:mx-16">
+            <div className="flex h-screen   mx-auto " id="about">
                 <div className="lg:grid lg:grid-cols-3 lg:gap-4 flex max-lg:flex-col">
                     <div className="lg:col-span-2 max-lg:items-center max-lg:mb-20 flex flex-col  justify-center ">
                         <h1 className=" text-5xl text-blue-600 font-bold font-lexend-mega items-center">About Me</h1>
@@ -16,8 +16,7 @@ export default function About(props){
                     <div className=" lg:col-span-1 relative">
                         <div className="flex flex-col h-full items-center justify-center w-[400px] mx-auto md:mr-auto">
                             <div className="relative">
-                                <img src="DSC_0145.jpg">
-                                </img>
+                                <img src="DSC_0145.jpg" className="w-88 h-auto" />
                                 <div>
                                 <img src="bird2.png" className="absolute -top-[68px] left-52  w-60 z-50" />
 
