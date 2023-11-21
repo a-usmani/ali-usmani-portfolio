@@ -6,7 +6,7 @@ import SideImage from "../components/home/side-image";
 
 export default function Home(props){
     return(
-    <div className="relative lg:min-h-[800px] lg:h-screen  mx-auto  ">
+    <div className="relative lg:min-h-[800px] lg:h-screen  mx-auto  bg-gradient-to-r from-blue-600 from-40% to-blue-500">
         <div className=" grid grid-cols-3 gap-4  ">
             <Intro />
             <SideImage scrollTo={props.scrollTo} sections={props.sections}/>

@@ -1,6 +1,6 @@
 export default function Contact(){
     return (
-        <div className="lg:min-h-[800px] lg:h-screen md:h-screen flex flex-col justify-center bg-blue-600 w-full " >
+        <div className="lg:min-h-[800px] lg:h-screen  flex flex-col justify-center bg-blue-600 w-full " >
             <div className="flex flex-col md:w-1/2 w-[400px] justify-center mx-auto max-lg:my-20 ">
                 <div className="flex flex-col [&>*]:mb-6 max-md:mx-auto max-md:items-center max-md:w-md items-center">
                     <h1 className="text-5xl text-white font-bold font-lexend-mega ">Contact Me!</h1>

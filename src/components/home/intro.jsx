@@ -2,7 +2,7 @@
 export default function Intro(){
     return(
     <>
-        <div className="col-span-3 lg:col-span-2 bg-gradient-to-r from-blue-600 from-40% to-blue-500 ">
+        <div className="col-span-3 lg:col-span-2  ">
             <div className=" flex flex-col  justify-center h-screen max-md:items-center md:mx-32">
                 <div className="max-w-screen-lg relative ">
                     <div className="relative">
